@@ -11,10 +11,10 @@ menu["en"]={"Play","Francais","Quit"}
 menu["fr"]={"Jouer","English","Quitter"}
 
 function drawrec(x1,x2,y1,y2,a)
-	screen:drawLine(x1,y1,x2,y1,Color.new(a,a,a))
-	screen:drawLine(x1,y1,x1,y2,Color.new(a,a,a))
-	screen:drawLine(x1,y2,x2,y2,Color.new(a,a,a))
-	screen:drawLine(x2,y1,x2,y2,Color.new(a,a,a))
+  screen:drawLine(x1,y1,x2,y1,Color.new(a,a,a))
+  screen:drawLine(x1,y1,x1,y2,Color.new(a,a,a))
+  screen:drawLine(x1,y2,x2,y2,Color.new(a,a,a))
+  screen:drawLine(x2,y1,x2,y2,Color.new(a,a,a))
 end
 
 a=125
